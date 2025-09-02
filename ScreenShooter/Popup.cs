@@ -105,7 +105,7 @@ public class Popup
             // For now it only posts your screenshots to my specific webhook on my server
             // I want to make it so there's a selection screen on the popup where you can choose which server and channel you can post your screenshots to
             _ = Discord.SendTextAndImageToDiscordAsync(
-                "https://discord.com/api/webhooks/1403375327387848765/jNaJSM7e4TQVBFl9KqOaNtz8mqv6bZHMqMCBOgrbwrlYT1OLyxViQNEf_Tw5N-9yTJsa",
+                "<INSERT YOUR OWN DISCORD WEBHOOK>",
                 userInput,
                 imagePath
             );
